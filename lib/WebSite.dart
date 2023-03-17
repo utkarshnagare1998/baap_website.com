@@ -426,6 +426,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   ),
                 ],
               ),
+              SizedBox(
+                height: 20,
+              ),
               Container(
                 child: Padding(
                   padding: const EdgeInsets.only(left: 50),
@@ -438,6 +441,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     ],
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 10,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 50, top: 20),
@@ -487,7 +493,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     Container(
                       height: 500,
                       width: 170,
-                      color: Color.fromARGB(0, 255, 205, 88),
+                      color: Colors.yellow,
                       child: Padding(
                         padding: const EdgeInsets.only(left: 15),
                         child: Column(
@@ -495,7 +501,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 20, ),
+                              padding: const EdgeInsets.only(
+                                top: 20,
+                              ),
                               child: TextWidget(
                                 text: 'Healthcear',
                                 size: 20,
@@ -503,117 +511,170 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            SizedBox(height: 10,),
+                            SizedBox(
+                              height: 10,
+                            ),
                             TextWidget(
-                                text:'Stopping the',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'irregularities in the',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'healthcare space.',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'We are disrupting',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'the rural healthcare',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and making it more',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'affordable o the',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'Villege.',size: 14,color: Colors.black,),
-                      
-                                //secound 
-                                SizedBox(height: 15,),
+                              text: 'Stopping the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
                             TextWidget(
-                                text:'Get 20 to 70% ',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'discounts on the  ',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'medicines, do urine  ',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and blood tests in ',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'just 20 rupees.',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'Consult any ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'specialist virtually ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'experiences center. ',size: 14,color: Colors.black,),
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                               
-                               
-                               
-                               
-                               
-                               
-                               //end
+                              text: 'irregularities in the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'healthcare space.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'We are disrupting',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
-                                
-                      
-                      
-                      
-                      
-                      
-                      
-                      
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'the rural healthcare',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and making it more',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'affordable o the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'Villege.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            //secound
+                            SizedBox(
+                              height: 15,
+                            ),
+                            TextWidget(
+                              text: 'Get 20 to 70% ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            TextWidget(
+                              text: 'discounts on the  ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'medicines, do urine  ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and blood tests in ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'just 20 rupees.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'Consult any ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'specialist virtually ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'experiences center. ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            //end
                           ],
-                        
                         ),
-
-                        
                       ),
-                      
                     ),
 
-
-                                  //secound container start
-                                  SizedBox(width: 20,),
-                                   Container(
+                    //secound container start
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
                       height: 500,
                       width: 170,
-                      color: Colors.amber,
+                      color: Color.fromARGB(255, 114, 133, 196),
                       child: Padding(
                         padding: const EdgeInsets.only(left: 15),
                         child: Column(
@@ -621,7 +682,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 20, ),
+                              padding: const EdgeInsets.only(
+                                top: 20,
+                              ),
                               child: TextWidget(
                                 text: 'Farming',
                                 size: 20,
@@ -629,123 +692,172 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            SizedBox(height: 10,),
+                            SizedBox(
+                              height: 10,
+                            ),
                             TextWidget(
-                                text:'Stopping the',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'irregularities in the',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'healthcare space.',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'We are disrupting',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'the rural healthcare',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and making it more',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'affordable o the',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'Villege.',size: 14,color: Colors.black,),
-                      
-                                //secound 
-                                SizedBox(height: 15,),
+                              text: 'Stopping the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
                             TextWidget(
-                                text:'Get 20 to 70% ',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'discounts on the  ',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'medicines, do urine  ',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and blood tests in ',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'just 20 rupees.',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'Consult any ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'specialist virtually ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'experiences center. ',size: 14,color: Colors.black,),
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                               
-                               
-                               
-                               
-                               
-                               
-                               //end
+                              text: 'irregularities in the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'healthcare space.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'We are disrupting',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
-                                
-                      
-                      
-                      
-                      
-                      
-                      
-                      
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'the rural healthcare',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and making it more',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'affordable o the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'Villege.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            //secound
+                            SizedBox(
+                              height: 15,
+                            ),
+                            TextWidget(
+                              text: 'Get 20 to 70% ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            TextWidget(
+                              text: 'discounts on the  ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'medicines, do urine  ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and blood tests in ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'just 20 rupees.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'Consult any ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'specialist virtually ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'experiences center. ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            //end
                           ],
-                        
                         ),
-
-                        
                       ),
-                      
                     ),
 
-              
-             
+                    //end secound container
 
-
-              //end secound container
-
-
-              // thound container start
-              SizedBox(width: 20,),
-               Container(
+                    // thound container start
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
                       height: 500,
                       width: 170,
-                      color: Colors.amber,
+                      color: Color.fromARGB(255, 121, 131, 77),
                       child: Padding(
                         padding: const EdgeInsets.only(left: 15),
                         child: Column(
@@ -753,7 +865,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 20, ),
+                              padding: const EdgeInsets.only(
+                                top: 20,
+                              ),
                               child: TextWidget(
                                 text: 'Governance',
                                 size: 20,
@@ -761,130 +875,172 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            SizedBox(height: 10,),
+                            SizedBox(
+                              height: 10,
+                            ),
                             TextWidget(
-                                text:'Stopping the',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'irregularities in the',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'healthcare space.',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'We are disrupting',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'the rural healthcare',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and making it more',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'affordable o the',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'Villege.',size: 14,color: Colors.black,),
-                      
-                                //secound 
-                                SizedBox(height: 15,),
+                              text: 'Stopping the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
                             TextWidget(
-                                text:'Get 20 to 70% ',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'discounts on the  ',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'medicines, do urine  ',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and blood tests in ',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'just 20 rupees.',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'Consult any ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'specialist virtually ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'experiences center. ',size: 14,color: Colors.black,),
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                               
-                               
-                               
-                               
-                               
-                               
-                               //end
+                              text: 'irregularities in the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'healthcare space.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'We are disrupting',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
-                                
-                      
-                      
-                      
-                      
-                      
-                      
-                      
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'the rural healthcare',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and making it more',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'affordable o the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'Villege.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            //secound
+                            SizedBox(
+                              height: 15,
+                            ),
+                            TextWidget(
+                              text: 'Get 20 to 70% ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            TextWidget(
+                              text: 'discounts on the  ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'medicines, do urine  ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and blood tests in ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'just 20 rupees.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'Consult any ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'specialist virtually ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'experiences center. ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            //end
                           ],
-                        
                         ),
-
-                        
                       ),
-                      
                     ),
 
+                    // end thound container
 
-
-
-
-
-
-
-
-
-
-              // end thound container
-
-
-
-              //four container start
-              SizedBox(width: 20,),
- Container(
+                    //four container start
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
                       height: 500,
                       width: 170,
-                      color: Colors.amber,
+                      color: Color.fromARGB(255, 101, 161, 151),
                       child: Padding(
                         padding: const EdgeInsets.only(left: 15),
                         child: Column(
@@ -892,7 +1048,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 20, ),
+                              padding: const EdgeInsets.only(
+                                top: 20,
+                              ),
                               child: TextWidget(
                                 text: 'Marketplace',
                                 size: 20,
@@ -900,119 +1058,172 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            SizedBox(height: 10,),
+                            SizedBox(
+                              height: 10,
+                            ),
                             TextWidget(
-                                text:'Stopping the',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'irregularities in the',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'healthcare space.',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'We are disrupting',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'the rural healthcare',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and making it more',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'affordable o the',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'Villege.',size: 14,color: Colors.black,),
-                      
-                                //secound 
-                                SizedBox(height: 15,),
+                              text: 'Stopping the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
                             TextWidget(
-                                text:'Get 20 to 70% ',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'discounts on the  ',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'medicines, do urine  ',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and blood tests in ',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'just 20 rupees.',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'Consult any ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'specialist virtually ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'experiences center. ',size: 14,color: Colors.black,),
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                               
-                               
-                               
-                               
-                               
-                               
-                               //end
+                              text: 'irregularities in the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'healthcare space.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'We are disrupting',
+                              size: 14,
+                              color: Colors.black,
+                            ),
 
-                                
-                      
-                      
-                      
-                      
-                      
-                      
-                      
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'the rural healthcare',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and making it more',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'affordable o the',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'Villege.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            //secound
+                            SizedBox(
+                              height: 15,
+                            ),
+                            TextWidget(
+                              text: 'Get 20 to 70% ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            TextWidget(
+                              text: 'discounts on the  ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'medicines, do urine  ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and blood tests in ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'just 20 rupees.',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'Consult any ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'specialist virtually ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'experiences center. ',
+                              size: 14,
+                              color: Colors.black,
+                            ),
+
+                            //end
                           ],
-                        
                         ),
-
-                        
                       ),
-                      
                     ),
 
-              // four  container end
+                    // four  container end
 
-
-              //five container start
-                            SizedBox(width: 20,),
- Container(
+                    //five container start
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
                       height: 500,
                       width: 160,
-                      color: Colors.amber,
+                      color: Color.fromARGB(255, 185, 101, 52),
                       child: Padding(
                         padding: const EdgeInsets.only(left: 15),
                         child: Column(
@@ -1020,7 +1231,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 20, ),
+                              padding: const EdgeInsets.only(
+                                top: 20,
+                              ),
                               child: TextWidget(
                                 text: 'Clothing',
                                 size: 20,
@@ -1028,166 +1241,872 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            SizedBox(height: 10,),
+                            SizedBox(
+                              height: 10,
+                            ),
                             TextWidget(
-                                text:'Stopping the',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'irregularities in the',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'healthcare space.',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'We are disrupting',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'the rural healthcare',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and making it more',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'affordable o the',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'Villege.',size: 14,color: Colors.black,),
-                      
-                                //secound 
-                                SizedBox(height: 15,),
+                              text: 'Stopping the',
+                              size: 14,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
                             TextWidget(
-                                text:'Get 20 to 70% ',size: 14,color: Colors.black,
-                                ),
-                                SizedBox(height: 5,),
-                                TextWidget(text:'discounts on the  ',size: 14,color: Colors.black,),
-                      
-                      
-                                  SizedBox(height: 6,),
-                                TextWidget(text:'medicines, do urine  ',size: 14,color: Colors.black,),
-                      
-                                  SizedBox(height: 6,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'and blood tests in ',size: 14,color: Colors.black,),
-                      
-                      
-                                 SizedBox(height: 6,),
-                                TextWidget(text:'just 20 rupees.',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                TextWidget(text:'Consult any ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'specialist virtually ',size: 14,color: Colors.black,),
-                      
-                      
-                                SizedBox(height: 6,),
-                                
-                                TextWidget(text:'experiences center. ',size: 14,color: Colors.black,),
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                               
-                               
-                               
-                               
-                               
-                               
-                               //end
+                              text: 'irregularities in the',
+                              size: 14,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'healthcare space.',
+                              size: 14,
+                            ),
 
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'We are disrupting',
+                              size: 14,
+                            ),
 
-                                
-                      
-                      
-                      
-                      
-                      
-                      
-                      
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'the rural healthcare',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and making it more',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'affordable o the',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'Villege.',
+                              size: 14,
+                            ),
+
+                            //secound
+                            SizedBox(
+                              height: 15,
+                            ),
+                            TextWidget(
+                              text: 'Get 20 to 70% ',
+                              size: 14,
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            TextWidget(
+                              text: 'discounts on the  ',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'medicines, do urine  ',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'and blood tests in ',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'just 20 rupees.',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+                            TextWidget(
+                              text: 'Consult any ',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'specialist virtually ',
+                              size: 14,
+                            ),
+
+                            SizedBox(
+                              height: 6,
+                            ),
+
+                            TextWidget(
+                              text: 'experiences center. ',
+                              size: 14,
+                            ),
+
+                            //end
                           ],
-                        
                         ),
-
-                        
                       ),
-                      
                     ),
 
-           
-
-
-                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-              //end five container
-              
-
-
-                    
-
-
-
-
-
-
-
-
-
-
-
-                  
-                    
+                    //end five container
                   ],
-                  
                 ),
-              
-                
               ),
-               
-              
-              Row(
-                children: [
-                  Text("data")
-                ],
-              )
+
+              Padding(
+                padding: EdgeInsets.only(right: 50, left: 50),
+                child: Column(
+                  children: [
+                    // Padding(
+                    // padding: const EdgeInsets.only(right: 50),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        TextWidget(
+                          text: 'CREATING IMPACT',
+                          size: 40,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ],
+                    ),
+
+                    // ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        TextWidget(
+                          text: 'FOR VILLAGE PEOPLE',
+                          size: 33,
+                          fontWeight: FontWeight.bold,
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Row(
+                      children: [
+                        TextWidget(
+                          text: 'BUSINESS AND SOCIAL APPS',
+                          size: 33,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        TextWidget(
+                          text:
+                              'At the baap company, we are working on various projects and initiatives which can impact the lives of the village people. We are bringing\n technology to their fingertips using various mobile apps. There are various problems in the rural India, we don’t have right pricing for the farm\n produce. We built marketplace to let farmer sell using their mobile. We make sure they get right price for their produce. We are also providing various\n services under our BAAP EXPERIENCE CENTER, which allows them to lease the farm tools, get medicines in the discounted price, talk to doctor’s\n virtually.',
+                          size: 14,
+                        )
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+
               //end fust container
 
+              Padding(
+                padding: EdgeInsets.only(left: 50, right: 50, top: 30),
+                child: Row(
+                  children: [
+                    //Business and social Apps
+                    //fust container
+                    Container(
+                        height: 300,
+                        width: 290,
+                        color: Color.fromARGB(255, 228, 228, 228),
+                        child: Column(
+                          children: [
+                            Row(
+                              // crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Image.asset(
+                                  'assets/Baapmarket.png',
+                                )
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.only(left: 10),
+                                  child: TextWidget(
+                                    text:
+                                        ' An app for the farmers to sell their farm\n produce to the international market.\n Marketplace is creating impact on the lives\n of the people in villages. We have been\n able to provide right price for the right\n people',
+                                    size: 14,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Padding(
+                                  padding:
+                                      const EdgeInsets.only(left: 10, top: 30),
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                      primary:
+                                          Color.fromARGB(255, 137, 134, 146),
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text(
+                                      "sell your farm produce",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 13),
+                                    ),
+                                  ),
+                                )
+                              ],
+                            )
+                          ],
+                        )),
+                    //end container
+                    //secound container
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
+                      height: 300,
+                      width: 290,
+                      color: Color.fromARGB(255, 228, 228, 228),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 50),
+                            child: Row(
+                              children: [
+                                // SizedBox(height: 150,),
+                                Image.asset('assets/Debaba.png')
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 30),
+                            child: Row(
+                              children: [
+                                TextWidget(
+                                  text:
+                                      'Lease the farming equipments and workers\n easily from the app. Get quick access to lot\n of shared resources from the agriculture\n warehouses and banks.',
+                                  size: 14,
+                                )
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 65),
+                            child: Row(
+                              children: [
+                                ElevatedButton(
+                                  onPressed: () {},
+                                  style: ElevatedButton.styleFrom(
+                                    // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                    primary: Color.fromARGB(255, 137, 134, 146),
+                                    shape: StadiumBorder(),
+                                  ),
+                                  child: Text(
+                                    "Hear worker",
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 13),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 10,
+                                ),
+                                ElevatedButton(
+                                  onPressed: () {},
+                                  style: ElevatedButton.styleFrom(
+                                    // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                    primary: Color.fromARGB(255, 137, 134, 146),
+                                    shape: StadiumBorder(),
+                                  ),
+                                  child: Text(
+                                    "Book Tractor",
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 13),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
 
+                    //end container
+                    //thound container
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
+                      height: 300,
+                      width: 290,
+                      color: Color.fromARGB(255, 228, 228, 228),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 40),
+                            child: Row(
+                              children: [Image.asset('assets/Baapcares.png')],
+                            ),
+                          ),
+                          Row(
+                            children: [
+                              TextWidget(
+                                text:
+                                    'organization works to improve the lives of\n children around the world, including\n providing education and healthcare\n services in rural communities.',
+                                size: 14,
+                              )
+                            ],
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 75),
+                            child: Row(
+                              children: [
+                                SizedBox(
+                                  width: 95,
+                                  height: 20,
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                      primary:
+                                          Color.fromARGB(255, 137, 134, 146),
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text(
+                                      "over Medicine",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 10),
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                SizedBox(
+                                  width: 95,
+                                  height: 20,
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                      primary:
+                                          Color.fromARGB(255, 137, 134, 146),
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text(
+                                      "Talk to Doctor",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 10),
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                SizedBox(
+                                  width: 94,
+                                  height: 20,
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                      primary:
+                                          Color.fromARGB(255, 137, 134, 146),
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text(
+                                      "Book lab Text",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 10),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    )
+
+                    //thound container end
+                  ],
+                ),
+              ),
+
+              ////////////////////////////////
+              Padding(
+                padding: EdgeInsets.only(left: 50, right: 50, top: 30),
+                child: Row(
+                  children: [
+                    //Business and social Apps
+                    //fust container
+                    Container(
+                        height: 300,
+                        width: 290,
+                        color: Color.fromARGB(255, 228, 228, 228),
+                        child: Column(
+                          children: [
+                            Row(
+                              // crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Image.asset(
+                                  'assets/lobobaap.png',
+                                  width: 150,
+                                  height: 140,
+                                )
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.only(left: 10),
+                                  child: TextWidget(
+                                    text:
+                                        ' An app for the farmers to sell their farm\n produce to the international market.\n Marketplace is creating impact on the lives\n of the people in villages. We have been\n able to provide right price for the right\n people',
+                                    size: 14,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Padding(
+                                  padding:
+                                      const EdgeInsets.only(left: 10, top: 30),
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                      primary:
+                                          Color.fromARGB(255, 137, 134, 146),
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text(
+                                      "sell your farm produce",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 13),
+                                    ),
+                                  ),
+                                )
+                              ],
+                            )
+                          ],
+                        )),
+                    //end container
+                    //secound container
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
+                      height: 300,
+                      width: 290,
+                      color: Color.fromARGB(255, 228, 228, 228),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 5),
+                            child: Row(
+                              children: [
+                                // SizedBox(height: 150,),
+                                Image.asset('assets/BaapTv.png', height: 100)
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 30),
+                            child: Row(
+                              children: [
+                                TextWidget(
+                                  text:
+                                      'Lease the farming equipments and workers\n easily from the app. Get quick access to lot\n of shared resources from the agriculture\n warehouses and banks.',
+                                  size: 14,
+                                )
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 65),
+                            child: Row(
+                              children: [
+                                ElevatedButton(
+                                  onPressed: () {},
+                                  style: ElevatedButton.styleFrom(
+                                    // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                    primary: Color.fromARGB(255, 137, 134, 146),
+                                    shape: StadiumBorder(),
+                                  ),
+                                  child: Text(
+                                    "Hear worker",
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 13),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 10,
+                                ),
+                                ElevatedButton(
+                                  onPressed: () {},
+                                  style: ElevatedButton.styleFrom(
+                                    // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                    primary: Color.fromARGB(255, 137, 134, 146),
+                                    shape: StadiumBorder(),
+                                  ),
+                                  child: Text(
+                                    "Book Tractor",
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 13),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+
+                    //end container
+                    //thound container
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
+                      height: 300,
+                      width: 290,
+                      color: Color.fromARGB(255, 228, 228, 228),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Image.asset(
+                                'assets/Debaba.png',width: 150,height: 130,
+                              )
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              TextWidget(
+                                text:
+                                    'organization works to improve the lives of\n children around the world, including\n providing education and healthcare\n services in rural communities.',
+                                size: 14,
+                              )
+                            ],
+                          ),
+                          Padding(
+                            padding:  EdgeInsets.only(top: 75),
+                            child: Row(
+                              children: [
+                                SizedBox(
+                                  width: 95,
+                                  height: 20,
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                      primary:
+                                          Color.fromARGB(255, 137, 134, 146),
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text(
+                                      "over Medicine",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 10),
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                SizedBox(
+                                  width: 95,
+                                  height: 20,
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                      primary:
+                                          Color.fromARGB(255, 137, 134, 146),
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text(
+                                      "Talk to Doctor",
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 10),
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                SizedBox(
+                                  width: 94,
+                                  height: 20,
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      // padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                                      primary:
+                                          Color.fromARGB(255, 137, 134, 146),
+                                      shape: StadiumBorder(),
+                                    ),
+                                    child: Text(
+                                      "Book lab Text",
+                                      style: TextStyle(
+                                          color: Color.fromARGB(255, 182, 171, 171), fontSize: 10),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    )
+
+                    //thound container end
+                  ],
+                ),
+              ),
+
+              ///////////////////////////////
+              SizedBox(height: 10,),
+            Container(
+              width: 910,
+              height: 700,
+              color: Color.fromARGB(179, 231, 226, 226),
+              child: Padding(
+                padding:  EdgeInsets.only(top: 30,left: 20),
+                child: Column(
+                  children: [
+                   
+                       Row(
+                        children: [
+                         TextWidget(text: 'DEVELOPER’S FACTORY',size: 30,fontWeight: FontWeight.bold,)
+                          
+                        ],
+                      ),
+                      SizedBox(height: 10,),
+                      Row(
+                        children: [
+                          TextWidget(text: ' We have world class tech talent to solve your complex business problems. Strong 120+ engineering teams and 200+ trainees together are\n transforming the lives of millions of the people in India and overseas. We have experts available in many cutting edge technologies.',size:14)
+                        ],
+                      ),
+                      /////////////
+
+                      Padding(
+                        padding:  EdgeInsets.only(top: 20,),
+                        child: Row(
+                          children: [
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/angular.png'),
+                      
+                      
+                            ),
+                            SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/nodejs.png')
+                      
+                      
+                            ),
+
+                             SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/react.png'),
+                      
+                      
+                            ),
+
+                             SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset("assets/flutter.png"),
+                      
+                      
+                            ),
+                          ],
+                        ),
+                      ),
+                      ////////////////////////////////
+                      /////////////////
+                    Padding(
+                        padding:  EdgeInsets.only(top: 10,),
+                        child: Row(
+                          children: [
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/paython.png'),
+                      
+                      
+                            ),
+                            SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/java.png')
+                      
+                      
+                            ),
+
+                             SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/aws.png'),
+                      
+                      
+                            ),
+
+                             SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset("assets/salesforce.png"),
+                      
+                      
+                            ),
+                          ],
+                        ),
+                      ),
+                    
+                      /////////////////
+                      //////////////////////////
+                       Padding(
+                        padding:  EdgeInsets.only(top: 10,),
+                        child: Row(
+                          children: [
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/kafka.png'),
+                      
+                      
+                            ),
+                            SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/wordpress.png')
+                      
+                      
+                            ),
+
+                             SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset('assets/blockchain.png'),
+                      
+                      
+                            ),
+
+                             SizedBox(width: 15,),
+                            Container(
+                              width: 205,
+                              height: 100,
+                              color:Colors.white70,
+                              child: Image.asset("assets/ai.png"),
+                      
+                      
+                            ),
+                          ],
+                        ),
+                      ),
+                      ////////////////////////////
+                      SizedBox(height: 40,),
+                      Row(
+                        children: [
+                          TextWidget(text: 'HIRE,TRAIN AND DEPLOY',size: 35,fontWeight: FontWeight.bold,),
+                        ],
+                      ),
+                      
+                        
+                      
+                      
+                         Column(
+
+
+                          children: [
+                            Row(
+                                           
+                              children: [
+                                Image.asset('assets/cropimg.png',width: 870,)
+                              ],
+                            ),
+                          ],
+                        ),
+                      
+                    
+                  ],
+                ),
+              ),
+            )
+            ////////////////////////
               
             ],
           ),
         ),
-        
       ),
     );
   }

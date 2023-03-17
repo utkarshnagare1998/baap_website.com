@@ -30,7 +30,7 @@ class TextWidget extends StatelessWidget {
               style: TextStyle(
                 fontSize: size ??15,
                 fontWeight: fontWeight ?? FontWeight.w100,
-                color: color ?? Colors.amber,
+                color: color ?? Colors.black,
                 fontFamily: ('Font'),
               
                 
@@ -41,7 +41,7 @@ class TextWidget extends StatelessWidget {
               style: TextStyle(
                 fontSize: size ??45 ,
                 fontWeight: fontWeight ?? FontWeight.w100,
-                color: color ?? Colors.amber,
+                color: color ?? Colors.black,
               ),
             ),
     );
